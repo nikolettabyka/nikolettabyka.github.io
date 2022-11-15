@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtén ayuda</title>
+    <link rel="stylesheet" href="css/help.css">
+    <link rel="stylesheet" href="css/verificacion.css">
+    <link rel="shortcut icon" href="icono/Logo.ico"/>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+</head>
+    <script type="text/javascript" src="js/fVerificacion.js"></script>
+     
+<body>
+    <div class="check-box">
+        <img class="avatar" src="imagenes/Logo.png" alt="Logo de la Cabaña Marina">
+        <div class="txt-box"><h1>Reestablecer Contraseña</h1></div>
+        <div class="txt">
+            <p>Ingresar los siguientes datos para reestablecer tu constraseña.</p>
+            </div>
+        <form>
+        <!-- Código -->
+        <label for="Código">Ingrese código de verificación </label>
+        <input type="text" class="form-control" minlength="6" maxlength="6" placeholder="Ingresar código" onkeypress="return SoloNumeros(event)" required="" pattern="[0-9]+">
+        
+        <!-- Contraseña -->
+        <label for="Contraseña">Ingrese Contraseña </label>
+        <input type="text" class="form-control" maxlength="15"  placeholder="Ingresar contraseña" required="">
+        <label for="Repetir contraseña">Ingrese Nuevamente la Contraseña </label>
+        <input type="Repetir contraseña" class="form-control" maxlength="15" placeholder="Ingresar nuevamente" required="">
+        <div data-brackets-id="3244" class="button"> <a data-brackets-id="3245" class="txtbutton" href="Login.html">Iniciar sesión</a></div>
+        <div class="pepe"><Button class="btn btn-primary color-button">Enviar</Button></div>
+        </form>
+            </div>
+            </body>

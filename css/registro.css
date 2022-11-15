@@ -1,0 +1,84 @@
+body{
+    font-family: 'calibri';
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/fondo9.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 50px);
+    border: 5px solid #111111;
+    
+}
+.form-register{
+    width: 400px;
+    background: #111111;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    font-family: 'calibri';
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
+
+}
+.form-register h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+
+}
+
+.controls{
+    width: 100%;
+    background: #2A3035;
+    padding: 10px;
+    border-radius:50px;
+    margin-bottom: 16px;
+    border: 1px solid: #000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1F384D ;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+.checkbox{
+    margin-bottom: 16px;
+}

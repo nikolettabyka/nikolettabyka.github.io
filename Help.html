@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtén ayuda</title>
+    <link rel="stylesheet" href="css/help.css">
+    <link rel="shortcut icon" href="icono/Logo.ico" />
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/login.css">
+</head>
+    <script type="text/javascript" src="js/Help.js"></script>
+    
+<body>
+    <div class="Help-box">
+       <img class="avatar" src="imagenes/Logo.png" alt="Logo de la Cabaña Marina">
+        <h1>Obtén Ayuda</h1>
+        <p>Ingresar tus datos para buscar tu cuenta.</p>
+        <form>
+        <!-- Teléfono -->
+        <label for="Teléfono">Teléfono: </label>
+        <input maxlength="9" minlength="9" type="tel" class="form-control" placeholder="Ingresar número (+51)" onkeypress="return solonumeros(event)" required="" pattern="[0-9]+">
+        
+        <!-- Correo Electrónico -->
+        <label for="correo electrónico">Correo electrónico: </label>
+        <input type="email" class="form-control" placeholder="Ingresar correo electrónico" id="email" required="">
+        
+        <div class="pepe"><Button class="btn btn-primary color-button">Enviar</Button></div><br>
+        <div class= "button"> 
+        <a  class="txtbutton" href="Verificacion.html">Código de verficación</a>
+        </div>
+        </form> 
+    </div>
+</body>
+</html>

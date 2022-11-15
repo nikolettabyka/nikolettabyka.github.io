@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="/css/help.css">
+    <link rel="shortcut icon" href="/icono/Logo.ico"/>
+</head>
+   
+   <script type="text/javascript" src="js/registro.js"></script>
+   
+<!-- cambio de registro total validacion 1 -->
+<body>
+      <form class="form-register" id="form" >
+      <img class="avatar" src="imagenes/Logo.png" alt="Logo de la Cabaña Marina">
+      <h1>Registrate aquí</h1>
+       <label for="Nombre">Nombre:</label>
+       <input class="controls" type="text" name="nombres" id="nombres" required pattern="[a-zA-Z]+" placeholder="Ingrese su Nombre">
+       
+       <label for="Apellido">Apellido:</label>
+       <input class="controls" type="text" name="apellidos" id="apellidos" required pattern="[a-zA-Z]+" placeholder="Ingrese su Apellido">
+       
+       <label for="Correo">Correo:</label>
+       <input class="controls" type="email" name="correo" id="correo" required placeholder="Ingrese su Correo">
+       
+       <label for="Contraseña">Contraseña:</label>
+       <input class="controls" type="password" name="txtPassword" id="inputContraseña" maxlength="15" required placeholder="Ingrese su Contraseña">
+       
+       <input class="checkbox" type="checkbox" onclick="myFuction()" >Ver contraseña <br>
+       
+       <label for="DNI">DNI:</label>
+       <input class="controls" type="text" name="DNI" id="DNI" required pattern="[0-9]+" minlength="8" maxlength="8" placeholder="Ingrese su DNI">
+       
+       <label for="Edad">Teléfono:</label>
+       <input class="controls" type="text" name="Edad" id="Edad" required pattern="[0-9]+" minlength="9" maxlength="9" placeholder="Ingrese su teléfono">
+       
+       <p>Estoy de acuerdo con <a href="terminos%20y%20condiciones.html">Términos y condiciones</a></p>
+       
+          <button class="botons" type="submit" >Registrar</button>
+
+       <p>¿Ya tienes cuenta?-Inicia sesión <a href="Login.html" style="color:dodgerblue;">aquí</a></p>
+
+      </form>
+      
+      <script type="text/javascript" >
+    function myFuction(){
+    var x = document.getElementById("inputContraseña");
+
+    if (x.type==="password"){
+        x.type="text";
+    } else{
+        x.type="password";
+    }
+}</script>
+      
+      
+</body>
+</html>

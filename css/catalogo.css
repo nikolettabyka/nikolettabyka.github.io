@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin:0;    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+     margin: 0;
+    padding: 0;
+    background: url(../imagenes/Fondo9.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+.contenedor-menu{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 80%;
+    height: 680px;
+    display: flex;
+    margin: auto;
+    perspective: 1500px;
+    max-width:1000px;
+    box-sizing: border-box;
+}
+.pagina-izquierda,
+.pagina-central,
+.pagina-derecha{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    background:white;
+    box-sizing: border-box;
+}
+.pagina-izquierda{
+background: #f2f6f8;
+background: -moz-linear-gradient(left, #f2f6f8 0%, #b5c6d0 0%, #d8e1e7 99%, #d8e1e7 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #f2f6f8), color-stop(0%, #b5c6d0), color-stop(99%, #d8e1e7), color-stop(100%, #d8e1e7));
+background: -webkit-linear-gradient(left, #f2f6f8 0%, #b5c6d0 0%, #d8e1e7 99%, #d8e1e7 100%);
+background: -o-linear-gradient(left, #f2f6f8 0%, #b5c6d0 0%, #d8e1e7 99%, #d8e1e7 100%);
+background: -ms-linear-gradient(left, #f2f6f8 0%, #b5c6d0 0%, #d8e1e7 99%, #d8e1e7 100%);
+background: linear-gradient(to right, #f2f6f8 0%, #b5c6d0 0%, #d8e1e7 99%, #d8e1e7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#d8e1e7', GradientType=1 );
+}
+.pagina-central{
+background: #f2f6f8;
+background: -moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 43%, #e0eff9 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #f2f6f8), color-stop(43%, #d8e1e7), color-stop(100%, #e0eff9));
+background: -webkit-linear-gradient(top, #f2f6f8 0%, #d8e1e7 43%, #e0eff9 100%);
+background: -o-linear-gradient(top, #f2f6f8 0%, #d8e1e7 43%, #e0eff9 100%);
+background: -ms-linear-gradient(top, #f2f6f8 0%, #d8e1e7 43%, #e0eff9 100%);
+background: linear-gradient(to bottom, #f2f6f8 0%, #d8e1e7 43%, #e0eff9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
+}
+.contenedor-lista{
+    width: 100%;
+    height: 100%;
+}
+.lista-uno,
+.lista-dos,
+.lista-tres{
+    width: 100%;
+    text-align: center;
+}
+.lista-uno h1,
+.lista-dos h1,
+.lista-tres h1{
+    font-size: 24px;
+    text-align: center;
+}
+.lista-uno img,
+.lista-dos img,
+.lista-tres img{
+    width: 100px;
+    height: 80px;
+}
+.lista-uno p,
+.lista-dos p,
+.lista-tres p{
+   font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.lista-uno hr,
+.lista-dos hr,
+.lista-tres hr{
+   width: 100px;
+    margin: auto;
+    height: 3px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #23cbff);
+    margin-top: 10px;
+}
+.boton-inicio{
+        position: absolute;
+    border: 0;
+    border-radius: 8px;
+    padding: 7px 15px;
+    background-color: #A8281D;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.boton-inicio:hover{
+    letter-spacing: 6px;
+    box-shadow: 0px -5px 10px 0px #DC40E1;
+}
+
+/*Efectos pagina izquierda*/
+.pagina-izquierda{
+    transform: rotateY(180deg);
+    transition: all 1s;
+    transform-origin: right;
+    transform-style: preserve-3d;
+    z-index: 10;
+}
+.pagina-izquierda2{
+    transform: rotateY(0deg);
+}
+.lado{
+    backface-visibility: hidden;
+}
+
+.delante{
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    
+   
+}
+.delante h1{
+    font-size: 24px;
+    text-align: center;
+}
+.delante img{
+    width: 215px;
+    margin: auto;
+    margin-top: 15px;
+    margin-right: -19px;
+}
+.delante hr{
+    width: 200px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, #f4e48a, #212120, #fa7632);
+}
+.delante h3{
+    font-weight: 100;
+    margin-top: 20px;
+}
+.delante button{
+    width: 200px;
+    padding: 6px;
+    margin-right: -20px;
+    background: #45B39D;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+.delante button:hover{
+    letter-spacing: 6px;
+    box-shadow: 0px -5px 10px 0px #DC40E1;
+}
+.delante h4{
+    margin-top: 10px;
+}
+.delante p{
+    margin-top: 10px;
+}
+.delante ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.delante ul h5{
+    font-size: 16px;
+}
+.delante ul label{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.correo-txt{
+    font-size: 10px;
+}
+/*Efectos pagina derecha*/
+.pagina-derecha{
+    transform: rotateY(-180deg);
+    transform-origin: left;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.pagina-derecha2{
+    transform: rotateY(0deg);
+}
+.lado-pagina-derecha{
+    backface-visibility: hidden;
+}
+.pagina-derecha-atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    border: 6px double #3f3f3f;
+    border-right: none;
+}
+.btn-cerrar{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    filter: blur(0.5px);
+    transition: all 300ms;
+    cursor: pointer;
+}
+.btn-cerrar:hover{
+    filter:blur(0px;)
+}
+@media screen and (max-width: 400px){
+    .contenedor {
+        width:100%;
+    }
+}

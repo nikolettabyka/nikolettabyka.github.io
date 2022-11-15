@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikoletta</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="icono/Logo.ico" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+51 992075582", // WhatsApp number
+            call_to_action: "Escríbenos", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'''
+            pre_filled_message: "Hola, me gustaría información acerca de..."
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<body>
+
+    <header>
+        <a href="#" class="logo">Nikoletta<span>.</span></a>
+        <div class="menuAlternar" onclick="alternarMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="alternarMenu();">Home</a></li>
+            <li><a href="#about" onclick="alternarMenu();">Sobre Nosotros</a></li>
+            <li><a href="#menu" onclick="alternarMenu();">Menu</a></li>
+            <li><a href="#chef" onclick="alternarMenu();">Chef's</a></li>
+            <li><a href="#testimonios" onclick="alternarMenu();">Testimonios</a></li>
+            <li><a href="#contacto" onclick="alternarMenu();">Contactos</a></li>
+            <li><a href="Login.html" onclick="alternarMenu();">Inicia Sesión</a></li>
+            <li><a href="Perfil.html" onclick="alternarMenu();">Perfil</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>El sabor marino</h2>
+            <p>Para sastifacer tu paladar.</p>
+            <a href="#menu" class="btn">Nuestro Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="tituloTexto"><span>S</span>obre <span>N</span>osotros</h2>
+                <p>Somos una empresa que busca la entrega <br> y venta segura de alimentos a domicilio</p><br>Comida
+                hecho en base a los conocimientos <br>adquiridos por nuestros chef's
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="imagenes/logo-caba%C3%B1a-marina.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--asdfadfadsfadsft asasdfdasdasdasdf-->
+    <section class="menu" id="menu">
+        <div class="titulo">
+            <h2 class="tituloTexto"><span>N</span>uestros <span>P</span>roductos</h2>
+            <p>Hechos con todo el amor del mundo.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Tazas.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Tazas</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Cojines.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Cojines</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Medias.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Medias</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Prendas.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Prendas Personalizadas</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Accesorios.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Accesorios</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="Catalogo.html">
+                    <div class="imgBx">
+                        <img src="imagenes/Navidad.jpeg">
+                    </div>
+                    <div class="text">
+                        <h3>Navidad</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="titulo">
+            <a href="catalogo/index.html" class="btn">Ver Todo</a>
+        </div>
+    </section>
+    <section class="novedades">
+        <h2 class="titulo-novedades">¿YA NOS SIGUES EN INSTRAGRAM?</h2>
+        <h3 class="titulo"><b><a href="https://www.instagram.com/nikolettabyka/" target="_blank">@nikolettabyka</a></b></h3>
+         <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+             <div class="col-4 col-md-6 w-5">
+             <a href="">
+				<div class="card card-block card-1"></div>
+				</a>
+			</div>
+			<div class="col-4 w-5">
+				<a href="">
+				<div class="card card-block card-2"></div>
+				</a>
+			</div>
+			<div class="col-4 w-5">
+				<a href="">
+				<div class="card card-block card-3"></div>
+				</a>
+			</div>
+			<div class="col-4 w-5">
+				<a href="">
+				<div class="card card-block card-4"></div>
+				</a>
+			</div>
+			<div class="col-4 w-5">
+				<a href="">
+				<div class="card card-block card-5"></div>
+				</a>
+			</div>
+       </div>
+     </section>
+<!--
+    <section class="contacto" id="contacto">
+        <div class="titulo">
+            <h2 class="tituloTexto"><span>C</span>ontáctanos</h2>
+            <p>Déjanos tus consultas o dudas, no tardaremos en responderte o puedes ubicarnos aquí.
+            <p>
+        </div>
+        <div class="formaContacto">
+            <h3>Enviar Mensaje</h3>
+            <div class="cajaTexto">
+                <input type="texto" placeholder="Nombres">
+            </div>
+            <div class="cajaTexto">
+                <input type="texto" placeholder="Email">
+            </div>
+            <div class="cajaTexto">
+                <textarea placeholder="Ingrese mensaje"></textarea>
+            </div>
+            <div class="cajaTexto">
+                <input type="submit" value="Enviar">
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5657833139794!2d-76.95676858561754!3d-12.07336874568215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6fb1e021d9f%3A0x68e8310fe0b28a7c!2sAv.%20la%20Fontana%20777%2C%20Cercado%20de%20Lima%2015024!5e0!3m2!1ses-419!2spe!4v1608955578569!5m2!1ses-419!2spe"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+    </section>
+-->
+    <div class="derechosTexto">
+        <p>Copyright 2020 <a href="#">Cabaña Marina.</a> Cualquier plagio será penado con pena de muerte &#128545; </p>
+    </div>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function alternarMenu() {
+            const menuAlternar = document.querySelector('.menuAlternar');
+            const navigation = document.querySelector('.navigation');
+            menuAlternar.classList.toggle('activo');
+            navigation.classList.toggle('activo');
+        }
+
+    </script>
+</body>
+
+</html>
