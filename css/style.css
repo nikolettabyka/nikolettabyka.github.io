@@ -6,6 +6,13 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: "ChicuOficial-Regular";
+    src: url("../fonts/ChicuOficial-Regular.woff");
+}
+h3{
+    font-family: 'ChicuOficial-Regular';
+}
 p{
     font-weight: 300;
     color: rgb(33, 47, 61);
