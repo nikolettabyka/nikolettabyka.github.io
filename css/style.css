@@ -738,6 +738,7 @@ path {
 }
 .slider{
     width: 95%;
+    height: 2rem;
     margin: auto;
     overflow: hidden;
 }
@@ -745,7 +746,8 @@ path {
     display: flex;
     padding: 0;
     width: 300%;
-    
+    height: 2rem;
+    margin-bottom: 0rem !important;
     animation: cambio 20s infinite alternate linear;
 }
 .slider li{
