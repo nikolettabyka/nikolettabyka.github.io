@@ -40,7 +40,9 @@ p {
     align-items: center;
     background: url(../imagenes/fondo-navidad2.jfif);
     background-size: cover;
+    flex-direction: column;
     background-repeat: round;
+    padding-top: 100px;
 }
 
 .banner .content {
@@ -105,6 +107,7 @@ header .logo {
     font-size: 2em;
     text-transform: uppercase;
     text-decoration: none;
+    background: #34435c;
 }
 
 header.sticky .logo {
@@ -747,7 +750,7 @@ path {
 }
 
 .slider {
-    width: 95%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -796,5 +799,12 @@ path {
 }
 
 .video-circle {
-    border: 9px solid #800000;
+    border: 9px solid #bc8e6e;
+}
+
+.container-logo {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: right;
 }
