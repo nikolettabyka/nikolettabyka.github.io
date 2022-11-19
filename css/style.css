@@ -38,8 +38,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../imagenes/fondoPrincipal1.jpg);
+    background: url(../imagenes/fondo-navidad2.jfif);
     background-size: cover;
+    background-repeat: round;
 }
 
 .banner .content {
@@ -147,7 +148,7 @@ header .navigation li a:hover {
 }
 
 section {
-    padding: 100px;
+    padding: 35px;
 }
 
 .row {
@@ -212,7 +213,6 @@ section {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 40px;
 
 }
 
@@ -481,9 +481,12 @@ section {
 
 @media(max-width:991px) {
 
-    header,
+    header {
+        padding: 25px 20px;
+    }
+
     header.sticky {
-        padding: 10px 20px;
+        padding: 5px 20px;
     }
 
     header .navigation {
@@ -535,7 +538,7 @@ section {
     }
 
     section {
-        padding: 20px;
+        padding: 55px;
     }
 
     .banner .content h2 {
@@ -635,7 +638,7 @@ section {
 }
 
 .card-block {
-    width: 380px;
+    width: 80%;
     height: 380px;
     background-color: #fff;
     border: none;
@@ -697,6 +700,11 @@ section {
 
 }
 
+.col-4 a {
+    display: flex;
+    justify-content: center;
+}
+
 .float {
     position: fixed;
     width: 60px;
@@ -731,31 +739,34 @@ svg {
 }
 
 circle {
-   fill: #25d366;
+    fill: #25d366;
 }
+
 path {
-   fill: #fff;
+    fill: #fff;
 }
-.slider{
+
+.slider {
     width: 95%;
-    height: 2rem;
     margin: auto;
     overflow: hidden;
 }
-.slider ul{
+
+.slider ul {
     display: flex;
     padding: 0;
-    width: 300%;
-    height: 2rem;
+    width: 200%;
     margin-bottom: 0rem !important;
-    animation: cambio 20s infinite alternate linear;
+    animation: cambio 15s infinite normal linear;
 }
-.slider li{
+
+.slider li {
     width: 100%;
     list-style: none;
 }
+
 @keyframes cambio {
-    0% { margin-left: 0;}
+    /* 0% { margin-left: 0;}
     20% { margin-left: 0;}
     
     25% { margin-left: -100%}
@@ -765,5 +776,26 @@ path {
     70% { margin-left: -200%}
     
     75% { margin-left: -300%}
-    100% { margin-left: -300%}
+    100% { margin-left: -300%} */
+
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 0;
+    }
+
+    55% {
+        margin-left: -100%
+    }
+
+    95% {
+        margin-left: -100%
+    }
 }
+
+.video-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    }
