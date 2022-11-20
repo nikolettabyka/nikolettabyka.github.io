@@ -230,6 +230,7 @@ path {
     width: 100%;
     margin: auto;
     overflow: hidden;
+    background-color: white;
 }
 
 .slider ul {
