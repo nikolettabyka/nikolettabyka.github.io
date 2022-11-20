@@ -826,7 +826,7 @@ path {
 }
 .width-video{
     width: 275px;
-    background-color: white;
+    background-color: #eaf1e7;
 }
 
 .p-text-video {
@@ -834,4 +834,15 @@ path {
     color: #000 !important;
     font-size: 1.1em !important;
     font-weight: 300 !important;
+}
+.mt-less7{
+    margin-top: -7px;
+}
+.border-tlr-r{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.border-blr-r{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
