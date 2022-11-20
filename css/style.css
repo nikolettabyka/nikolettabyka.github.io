@@ -13,6 +13,50 @@
     src: url("../fonts/ChicuOficial-Regular.woff");
 }
 
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("../fonts/Pacifico.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url("../fonts/DancingScript-Bold.ttf");
+}
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: url("../fonts/DancingScript-SemiBold.ttf");
+}
+@font-face {
+    font-family: "DancingScript-Medium";
+    src: url("../fonts/DancingScript-Medium.ttf");
+}
+@font-face {
+    font-family: "Quicksand-Light";
+    src: url("../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("../fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: "Quicksand-SemiBold";
+    src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+
 h1,
 h2,
 h3,
@@ -817,7 +861,7 @@ path {
 .opacity-0{
     opacity: 0;
 }
-.opacity-0 p{
+.opacity-0 p, marquee{
     margin-bottom: 0rem !important;
     font-size: 1.1em !important;
 }
@@ -832,8 +876,16 @@ path {
 .p-text-video {
     margin-bottom: 0rem !important;
     color: #000 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    font-family: "Quicksand-Medium" !important;
+}
+.marquee-text-video {
+    margin-bottom: 0rem !important;
+    color: #000 !important;
     font-size: 1.1em !important;
     font-weight: 300 !important;
+    font-family: "ChicuOficial-Regular" !important;
 }
 .mt-less7{
     margin-top: -7px;
