@@ -46,10 +46,8 @@ p {
 }
 
 .banner .content {
-    width: 100%;
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -61,7 +59,8 @@ p {
 }
 
 .banner .content .container-text-video {
-    width: 33%;
+    width: 275px;
+    margin: 20px;
 }
 
 .banner .content p {
@@ -807,7 +806,7 @@ path {
 }
 
 .video-circle {
-    border: 8px solid #bc8e6e;
+    border-radius: 10px;
 }
 
 .container-logo {
@@ -818,9 +817,20 @@ path {
 .opacity-0{
     opacity: 0;
 }
+.opacity-0 p{
+    margin-bottom: 0rem !important;
+    font-size: 1.1em !important;
+}
 .txt-aling-web{
     text-align: -webkit-center;
 }
 .width-video{
-    width: 282px;
+    width: 275px;
+    background-color: white;
+}
+
+.p-text-video {
+    margin-bottom: 0rem !important;
+    color: #000 !important;
+    font-size: 1.1em !important;
 }
