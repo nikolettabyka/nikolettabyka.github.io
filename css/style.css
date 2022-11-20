@@ -46,14 +46,22 @@ p {
 }
 
 .banner .content {
-    max-width: 900px;
+    width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .banner .content h2 {
     font-family: serif;
     font-size: 5em;
     color: #fff;
+}
+
+.banner .content .container-text-video {
+    width: 33%;
 }
 
 .banner .content p {
@@ -87,7 +95,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 24px 100px;
     z-index: 10000;
     display: flex;
     align-items: center;
@@ -799,7 +807,7 @@ path {
 }
 
 .video-circle {
-    border: 9px solid #bc8e6e;
+    border: 8px solid #bc8e6e;
 }
 
 .container-logo {

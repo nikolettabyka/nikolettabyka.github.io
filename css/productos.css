@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "ChicuOficial-Regular";
+    src: url("../fonts/ChicuOficial-Regular.woff");
+}
+
+body {
+    background: url("../imagenes/fondo-productos2.jpeg");
+    background-size: cover;
+     background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body,
+*,
+[id] * {
+    font-family: "ChicuOficial-Regular" !important;
+}
+
+p {
+    font-weight: 300;
+    color: rgb(33, 47, 61);
+}
+
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background: #45B39D;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px 100px;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #34435c;
+}
+
+header.sticky .logo {
+    color: #111;
+}
+
+header .logo span {
+    color: #E53935;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+    margin-bottom: 0rem !important;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    margin-bottom: 0rem;
+}
+
+header .navigation li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+header.sticky .navigation li a {
+    color: #111;
+}
+
+header .navigation li a:hover {
+    color: #ff0157;
+}
+
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media(max-width:991px) {
+
+    header {
+        padding: 48px 20px;
+    }
+
+    header.sticky {
+        padding: 5px 20px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.activo {
+        width: 100%;
+        height: cal(100% - 70px);
+        position: fixed;
+        top: 70px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+    }
+
+    header .navigation li {
+        margin-left: 0;
+    }
+
+    header .navigation li a {
+        color: #111;
+        font-size: 1.6em;
+    }
+
+    .menuAlternar {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../icono/bot%C3%B3n-menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .menuAlternar.activo {
+        background: url(../icono/bot%C3%B3n-cerrar-menu.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    header .sticky .menuAlternar {
+        filter: invert(1);
+    }
+
+    
+
+    .titulo {
+        text-align: center;
+    }
+
+   
+}
+
+
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+
+#whatsapp {
+    z-index: 10000000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .4));
+}
+
+circle {
+    fill: #25d366;
+}
+
+path {
+    fill: #fff;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    margin-bottom: 0rem !important;
+    animation: cambio 15s infinite normal linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes cambio {
+    /* 0% { margin-left: 0;}
+    20% { margin-left: 0;}
+    
+    25% { margin-left: -100%}
+    45% { margin-left: -100%}
+    
+    50% { margin-left: -200%}
+    70% { margin-left: -200%}
+    
+    75% { margin-left: -300%}
+    100% { margin-left: -300%} */
+
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 0;
+    }
+
+    55% {
+        margin-left: -100%
+    }
+
+    95% {
+        margin-left: -100%
+    }
+}
+
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
