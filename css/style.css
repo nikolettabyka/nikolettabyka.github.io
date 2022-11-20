@@ -815,3 +815,12 @@ path {
     align-items: center;
     justify-content: right;
 }
+.opacity-0{
+    opacity: 0;
+}
+.txt-aling-web{
+    text-align: -webkit-center;
+}
+.width-video{
+    width: 282px;
+}
