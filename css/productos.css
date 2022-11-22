@@ -14,10 +14,10 @@
 }
 
 body {
-    background: url("../imagenes/fondo-productos2.jpeg");
+    background: url("../imagenes/fondo-navidad-rojo.jpeg");
     background-size: cover;
-     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: round;
+    min-height: 100vh;
 }
 
 h1,
@@ -189,13 +189,13 @@ header .navigation li a:hover {
         filter: invert(1);
     }
 
-    
+
 
     .titulo {
         text-align: center;
     }
 
-   
+
 }
 
 
