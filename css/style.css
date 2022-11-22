@@ -22,18 +22,22 @@
     font-family: "DancingScript-Regular";
     src: url("../fonts/DancingScript-Regular.ttf");
 }
+
 @font-face {
     font-family: "DancingScript-Bold";
     src: url("../fonts/DancingScript-Bold.ttf");
 }
+
 @font-face {
     font-family: "DancingScript-SemiBold";
     src: url("../fonts/DancingScript-SemiBold.ttf");
 }
+
 @font-face {
     font-family: "DancingScript-Medium";
     src: url("../fonts/DancingScript-Medium.ttf");
 }
+
 @font-face {
     font-family: "Quicksand-Light";
     src: url("../fonts/Quicksand-Light.ttf");
@@ -48,10 +52,12 @@
     font-family: "Quicksand-Bold";
     src: url("../fonts/Quicksand-Bold.ttf");
 }
+
 @font-face {
     font-family: "Quicksand-Medium";
     src: url("../fonts/Quicksand-Medium.ttf");
 }
+
 @font-face {
     font-family: "Quicksand-SemiBold";
     src: url("../fonts/Quicksand-SemiBold.ttf");
@@ -85,7 +91,7 @@ p {
     background: url(../imagenes/fondo-navidad2.jfif);
     background-size: cover;
     flex-direction: column;
-    background-repeat: round;
+    background-repeat: no-repeat;
     padding-top: 100px;
 }
 
@@ -219,9 +225,13 @@ section {
 }
 
 .tituloTexto {
-    color: #111;
+    color: #fff;
     font-size: 2em;
     font-weight: 300;
+}
+
+.subtituloTexto {
+    color: #fff;
 }
 
 .tituloTexto span {
@@ -259,7 +269,10 @@ section {
 }
 
 .menu {
-    background: #FFF;
+    background-image: url("../imagenes/fondo-navidad-rojo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
 }
 
 .menu .content {
@@ -273,15 +286,14 @@ section {
 .menu .content .box {
     width: 340px;
     margin: 20px;
-    border: 15px solid #fff;
 }
 
 .menu .content .box .imgBx {
     position: relative;
     width: 100%;
     height: 300px;
-    border: 5px solid #000;
-    border-radius: 4%;
+
+
 }
 
 .menu .content .box .imgBx img {
@@ -292,11 +304,13 @@ section {
     height: 100%;
     object-fit: cover;
     transition: transform .3s;
-    border-radius: 2%;
+    border: 5px solid #fff;
+    border-radius: 4%;
 }
 
 .menu .content .box .imgBx img:hover {
     transform: scale(1.1);
+    border: 5px solid #fff;
 }
 
 .menu .content .box .text {
@@ -305,7 +319,7 @@ section {
 
 .menu .content .box .text h3 {
     font-weight: 100;
-    color: #111;
+    color: #fff;
     text-align: left;
     font-size: 1.3em;
 }
@@ -861,17 +875,22 @@ path {
     align-items: center;
     justify-content: right;
 }
-.opacity-0{
+
+.opacity-0 {
     opacity: 0;
 }
-.opacity-0 p, marquee{
+
+.opacity-0 p,
+marquee {
     margin-bottom: 0rem !important;
     font-size: 1.1em !important;
 }
-.txt-aling-web{
+
+.txt-aling-web {
     text-align: -webkit-center;
 }
-.width-video{
+
+.width-video {
     width: 275px;
     background-color: #eaf1e7;
 }
@@ -883,6 +902,7 @@ path {
     font-weight: 300 !important;
     font-family: "Quicksand-Medium" !important;
 }
+
 .marquee-text-video {
     margin-bottom: 0rem !important;
     color: #000 !important;
@@ -890,18 +910,31 @@ path {
     font-weight: 300 !important;
     font-family: "ChicuOficial-Regular" !important;
 }
-.mt-less7{
+
+.mt-less7 {
     margin-top: -7px;
 }
-.border-tlr-r{
+
+.border-tlr-r {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.border-blr-r{
+
+.border-blr-r {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.txt-center{
+.txt-center {
     text-align: center !important;
+}
+
+@media(max-width:847px) {
+    .menu {
+        background-image: url("../imagenes/fondo-navidad-rojo.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    }
 }
