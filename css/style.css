@@ -564,11 +564,15 @@ section {
         display: none;
     }
 
+    header.sticky .navigation.activo {
+        top: 58px;
+    }
+
     header .navigation.activo {
         width: 100%;
         height: cal(100% - 70px);
         position: fixed;
-        top: 70px;
+        top: 96px;
         left: 0;
         display: flex;
         justify-content: center;
