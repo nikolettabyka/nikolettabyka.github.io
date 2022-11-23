@@ -280,7 +280,7 @@ path {
     }
 }
 
-.menu {}
+
 
 .menu .content {
     display: flex;
@@ -452,4 +452,10 @@ path {
 
 .slider3 #slide3-Producto3 {
     opacity: 0;
+}
+
+@media(max-width:767px) {
+    .menu {
+        padding-top: 4rem;
+    }
 }
