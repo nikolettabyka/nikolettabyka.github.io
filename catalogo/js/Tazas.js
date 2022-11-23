@@ -68,10 +68,10 @@ function changeImage(e , id) {
     for (var i = 0; i < children.length; i++) {
         if (children[i].id == e.id) {
             children[i].style.opacity = 1;
-            e.parentElement.children[i].style.border = "1px solid #ccc";
+            e.parentElement.children[i].style.border = "1px solid #000";
         } else {
             children[i].style.opacity = 0;
-            e.parentElement.children[i].style.border = "0px solid #ccc";
+            e.parentElement.children[i].style.border = "0px solid #000";
         }
     }
 }
