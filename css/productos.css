@@ -214,7 +214,7 @@ header .navigation li a:hover {
     z-index: 10000000;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 0px;
 }
 
 svg {
