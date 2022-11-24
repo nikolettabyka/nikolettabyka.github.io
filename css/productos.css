@@ -193,6 +193,12 @@ header .navigation li a:hover {
     flex-direction: column;
 }
 
+@media(max-width:499px) {
+    header {
+        padding: 48px 20px !important;
+    }
+}
+
 
 @media(max-width:991px) {
 
