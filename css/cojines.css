@@ -1,0 +1,6 @@
+body {
+    background: url("../imagenes/fondo-navidad-toxico.jpeg");
+    background-size: contain;
+    background-repeat: inherit;
+    min-height: 100vh;
+}

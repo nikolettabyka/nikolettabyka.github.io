@@ -81,12 +81,7 @@ p {
     color: rgb(33, 47, 61);
 }
 
-body {
-    background: url("../imagenes/fondo-navidad-verde.jpeg");
-    background-size: contain;
-    background-repeat: round;
-    min-height: 100vh;
-}
+
 
 h1,
 h2,
@@ -612,7 +607,9 @@ path {
 }
 
 .sub-content-text {
-    width: 94%;
+    width: 95%;
+    background: #fff;
+    border-radius: 10px;
 }
 
 .texto-h4 {
