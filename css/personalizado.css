@@ -1,0 +1,6 @@
+body {
+    background: url("../imagenes/fondo-navidad-cremita.jpeg");
+    background-size: contain;
+    background-repeat: inherit;
+    min-height: 100vh;
+}

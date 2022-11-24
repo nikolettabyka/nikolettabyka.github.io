@@ -13,12 +13,75 @@
     src: url("../fonts/ChicuOficial-Regular.woff");
 }
 
-body {
-    background: url("../imagenes/fondo-navidad-verde.jpeg");
-    background-size: contain;
-    background-repeat: round;
-    min-height: 100vh;
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("../fonts/Pacifico.ttf");
 }
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url("../fonts/DancingScript-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: url("../fonts/DancingScript-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Medium";
+    src: url("../fonts/DancingScript-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Light";
+    src: url("../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-SemiBold";
+    src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body,
+*,
+[id] * {
+    font-family: "ChicuOficial-Regular" !important;
+}
+
+p {
+    font-weight: 300;
+    color: rgb(33, 47, 61);
+}
+
+
 
 h1,
 h2,
@@ -544,11 +607,14 @@ path {
 }
 
 .sub-content-text {
-    width: 94%;
+    width: 95%;
+    background: #fff;
+    border-radius: 10px;
 }
 
 .texto-h4 {
     text-align: center;
+    font-family: "Quicksand-Medium" !important;
 }
 
 .display-4 {
@@ -569,4 +635,11 @@ path {
     color: #ff0157;
     font-weight: 500;
     text-decoration: none;
+}
+
+.video-circle {
+    border-radius: 4%;
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
 }
