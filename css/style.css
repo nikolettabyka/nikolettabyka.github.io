@@ -96,8 +96,9 @@ p {
 }
 
 .banner .content {
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -553,7 +554,7 @@ section {
 @media(max-width:991px) {
 
     header {
-        padding: 48px 20px;
+        padding: 24px 20px;
     }
 
     header.sticky {
@@ -572,7 +573,7 @@ section {
         width: 100%;
         height: cal(100% - 70px);
         position: fixed;
-        top: 96px;
+        top: 72px;
         left: 0;
         display: flex;
         justify-content: center;
