@@ -197,6 +197,19 @@ header .navigation li a:hover {
     header {
         padding: 48px 20px !important;
     }
+
+    header.sticky {
+        padding: 5px 20px !important;
+    }
+
+    header .navigation.activo {
+        top: 96px !important;
+    }
+
+    header.sticky .navigation.activo {
+        top: 58px !important;
+    }
+
 }
 
 
