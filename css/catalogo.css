@@ -1,4 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "ChicuOficial-Regular";
+    src: url("../fonts/ChicuOficial-Regular.woff");
+}
+
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("../fonts/Pacifico.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url("../fonts/DancingScript-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: url("../fonts/DancingScript-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript-Medium";
+    src: url("../fonts/DancingScript-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Light";
+    src: url("../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-Medium";
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-SemiBold";
+    src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body,
+*,
+[id] * {
+    font-family: "ChicuOficial-Regular" !important;
+}
+
+p {
+    font-weight: 300;
+    color: rgb(33, 47, 61);
+}
 *{
     padding: 0;
     margin:0;    
@@ -240,7 +313,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     cursor: pointer;
 }
 .btn-cerrar:hover{
-    filter:blur(0px;)
+    filter:blur(0px)
 }
 @media screen and (max-width: 400px){
     .contenedor {
