@@ -551,6 +551,25 @@ section {
     text-decoration: none;
 }
 
+@media(max-width:499px) {
+    header {
+        padding: 48px 20px !important;
+    }
+
+    header.sticky {
+        padding: 5px 20px !important;
+    }
+
+    header .navigation.activo {
+        top: 96px !important;
+    }
+
+    header.sticky .navigation.activo {
+        top: 58px !important;
+    }
+
+}
+
 @media(max-width:991px) {
 
     header {
