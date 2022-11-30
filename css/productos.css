@@ -614,6 +614,171 @@ path {
     opacity: 0;
 }
 
+/**/
+.slider5 #slide5-Producto1 {
+    opacity: 1;
+}
+#ul-slide5 #slide5-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider5 #slide5-Producto2 {
+    opacity: 0;
+}
+
+.slider5 #slide5-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider6 #slide6-Producto1 {
+    opacity: 1;
+}
+#ul-slide6 #slide6-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider6 #slide6-Producto2 {
+    opacity: 0;
+}
+
+.slider6 #slide6-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider7 #slide7-Producto1 {
+    opacity: 1;
+}
+#ul-slide7 #slide7-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider7 #slide7-Producto2 {
+    opacity: 0;
+}
+
+.slider7 #slide7-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider8 #slide8-Producto1 {
+    opacity: 1;
+}
+#ul-slide8 #slide8-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider8 #slide8-Producto2 {
+    opacity: 0;
+}
+
+.slider8 #slide8-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider9 #slide9-Producto1 {
+    opacity: 1;
+}
+#ul-slide9 #slide9-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider9 #slide9-Producto2 {
+    opacity: 0;
+}
+
+.slider9 #slide9-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider10 #slide10-Producto1 {
+    opacity: 1;
+}
+#ul-slide10 #slide10-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider10 #slide10-Producto2 {
+    opacity: 0;
+}
+
+.slider10 #slide10-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider11 #slide11-Producto1 {
+    opacity: 1;
+}
+#ul-slide11 #slide11-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider11 #slide11-Producto2 {
+    opacity: 0;
+}
+
+.slider11 #slide11-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider12 #slide12-Producto1 {
+    opacity: 1;
+}
+#ul-slide12 #slide12-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider12 #slide12-Producto2 {
+    opacity: 0;
+}
+
+.slider12 #slide12-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider13 #slide13-Producto1 {
+    opacity: 1;
+}
+#ul-slide13 #slide13-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider13 #slide13-Producto2 {
+    opacity: 0;
+}
+
+.slider13 #slide13-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider14 #slide14-Producto1 {
+    opacity: 1;
+}
+#ul-slide14 #slide14-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider14 #slide14-Producto2 {
+    opacity: 0;
+}
+
+.slider14 #slide14-Producto3 {
+    opacity: 0;
+}
+/**/
+.slider15 #slide15-Producto1 {
+    opacity: 1;
+}
+#ul-slide15 #slide15-Producto1 {
+    border: 1px solid #000;
+}
+
+.slider15 #slide15-Producto2 {
+    opacity: 0;
+}
+
+.slider15 #slide15-Producto3 {
+    opacity: 0;
+}
 @media(max-width:767px) {
     .menu {
         padding-top: 4rem;

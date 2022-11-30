@@ -88,7 +88,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../imagenes/fondo-navidad2.jfif);
+    background: url(../imagenes/fondo-navidad-bastones.png);
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ header .navigation li {
 
 header .navigation li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -961,4 +961,41 @@ marquee {
         width: 100%;
         min-height: 100vh;
     }
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+header.sticky .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
 }
