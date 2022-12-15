@@ -4,3 +4,9 @@ body {
     background-repeat: inherit;
     min-height: 100vh;
 }
+
+.menu .content2 .box2 {
+    width: 350px;
+    margin: 20px;
+
+}
