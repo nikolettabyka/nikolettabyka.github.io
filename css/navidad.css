@@ -5,6 +5,12 @@ body {
     min-height: 100vh;
 }
 
+.menu .content2 .box2 {
+    width: 300px;
+    margin: 20px;
+
+}
+
 .menu .content2 .box2 .imgBx {
     position: relative;
     width: 300px;
