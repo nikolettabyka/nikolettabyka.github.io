@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikoletta</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="icono/nikoletta.jpeg" />
     <link rel="stylesheet" href="css/style.css">
@@ -25,7 +26,7 @@
     })();
 </script> -->
 
-<body>
+<body class="body" id="body">
     <!-- <div>
         <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
             class="float" target="_blank">
@@ -69,16 +70,15 @@
         </div>
         <div class="menuAlternar" onclick="alternarMenu();"></div>
         <ul class="navigation">
-            <li><a href="catalogo/Tazas.html" onclick="alternarMenu();">Tazas</a></li>
+            <!-- <li><a href="catalogo/Tazas.html" onclick="alternarMenu();">Tazas</a></li> -->
             <li><a href="catalogo/Cojines.html" onclick="alternarMenu();">Cojines</a></li>
             <li><a href="catalogo/Medias.html" onclick="alternarMenu();">Medias</a></li>
             <li><a href="catalogo/Personalizado.html" onclick="alternarMenu();">Personalizado</a></li>
-            <li><a href="catalogo/Accesorios.html" onclick="alternarMenu();">Accesorios</a></li>
-            <li class="dropdown"><a  href="catalogo/Navidad.html" onclick="alternarMenu();">Navidad</a>
+            <!-- <li><a href="catalogo/Accesorios.html" onclick="alternarMenu();">Accesorios</a></li> -->
+            <li class="dropdown"><a href="javascript:abrirMenuNavidad();">Navidad</a>
                 <div class="dropdown-content">
-                    <a href="https://blog.hubspot.com/">Polos</a>
-                    <a href="https://academy.hubspot.com/">Pijamas</a>
-                    <a href="https://www.youtube.com/user/hubspot">Poleras</a>
+                    <a href="catalogo/navidad/Polos.html">Polos</a>
+                    <a href="catalogo/navidad/Pijamas.html">Pijamas</a>
                 </div>
             </li>
         </ul>
@@ -88,6 +88,19 @@
             <!-- <h2>El sabor marino</h2>
             <p>Para sastifacer tu paladar.</p>
             <a href="#menu" class="btn">Nuestro Menu</a> -->
+            <div class="container-text-video">
+                <div class="txt-aling-web">
+                    <div class="width-video opacity-0">
+                        <p>Por la compra de 2 pijamas de adulto llévate un polo navideño
+                            GRATIS</p>
+                    </div>
+                    <!-- <audio src="audio/All I Want For Christmas Is You.mp3" autoplay muted="false"></audio> -->
+                    <video class="video-circle" autoplay loop muted height="500">
+                        <source src="videos/navidadgatitos.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                      </video> 
+                </div>
+            </div>
             <div class="container-text-video">
                 <div class="txt-aling-web">
                     <div class="width-video opacity-0">
@@ -140,7 +153,7 @@
                 realidad ♡</p>
         </div>
         <div class="content">
-            <div class="box">
+            <!-- <div class="box">
                 <a style="text-decoration: none" href="catalogo/Tazas.html">
                     <div class="imgBx">
                         <img src="imagenes/Tazas.jpeg">
@@ -149,7 +162,7 @@
                 <div class="text">
                     <h3 class="upper subtituloTexto txt-center">Tazas</h3>
                 </div>
-            </div>
+            </div> -->
             <div class="box">
                 <a style="text-decoration: none" href="catalogo/Cojines.html">
                     <div class="imgBx">
@@ -181,7 +194,7 @@
                     <h3 class="upper subtituloTexto txt-center">Personalizado</h3>
                 </div>
             </div>
-            <div class="box">
+            <!-- <div class="box">
                 <a style="text-decoration: none" href="catalogo/Accesorios.html">
                     <div class="imgBx">
                         <img src="imagenes/Accesorios.jpeg">
@@ -190,15 +203,25 @@
                 <div class="text">
                     <h3 class="upper subtituloTexto txt-center">Accesorios</h3>
                 </div>
-            </div>
+            </div> -->
             <div class="box">
-                <a style="text-decoration: none" href="catalogo/Navidad.html">
+                <a style="text-decoration: none" href="catalogo/navidad/Polos.html">
                     <div class="imgBx">
-                        <img src="imagenes/Navidad.jpeg">
+                        <img src="imagenes/polos-navidad2.jpeg">
                     </div>
                 </a>
                 <div class="text">
-                    <h3 class="upper subtituloTexto txt-center">Navidad</h3>
+                    <h3 class="upper subtituloTexto txt-center">Polos Navidad</h3>
+                </div>
+            </div>
+            <div class="box">
+                <a style="text-decoration: none" href="catalogo/navidad/Pijamas.html">
+                    <div class="imgBx">
+                        <img src="imagenes/pijamas-navidad6.jpeg">
+                    </div>
+                </a>
+                <div class="text">
+                    <h3 class="upper subtituloTexto txt-center">Pijamas Navidad</h3>
                 </div>
             </div>
 
@@ -210,29 +233,16 @@
         </h3>
         <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
             <div class="col-4 w-5">
-                <a href="">
                     <div class="card card-block card-1"></div>
-                </a>
             </div>
             <div class="col-4 w-5">
-                <a href="">
                     <div class="card card-block card-2"></div>
-                </a>
             </div>
             <div class="col-4 w-5">
-                <a href="">
                     <div class="card card-block card-3"></div>
-                </a>
             </div>
             <div class="col-4 w-5">
-                <a href="">
                     <div class="card card-block card-4"></div>
-                </a>
-            </div>
-            <div class="col-4 w-5">
-                <a href="">
-                    <div class="card card-block card-5"></div>
-                </a>
             </div>
         </div>
     </section>
@@ -256,6 +266,8 @@
         }
 
     </script>
+    <script src="catalogo/js/jsNavidad.js"></script>
+    
 </body>
 
 </html>

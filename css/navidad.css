@@ -4,3 +4,16 @@ body {
     background-repeat: inherit;
     min-height: 100vh;
 }
+
+.menu .content2 .box2 .imgBx {
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+
+.video-circle {
+    border-radius: 4%;
+    object-fit: cover;
+    width: 300px;
+    height: 500px;
+}
